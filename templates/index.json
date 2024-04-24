@@ -1,5 +1,28 @@
 {
   "sections": {
+    "homepage_banner_3Q3Yaq": {
+      "type": "homepage-banner",
+      "blocks": {
+        "banner_AU3Djd": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Home-header.png",
+            "mimage": "shopify:\/\/shop_images\/Homepage_Header_Mobi.png",
+            "small-image": "shopify:\/\/shop_images\/Goodies-logo.png",
+            "heading": "The shape of things to come! Your favorite squares with a new, plant based juiciness.",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "banner_AU3Djd"
+      ],
+      "settings": {
+        "infinite": false,
+        "autoplay": true,
+        "slider-speed": 4000
+      }
+    },
     "8bf69362-bef9-4f89-9c3d-d9b3395ad70c": {
       "type": "multicolumn",
       "blocks": {
@@ -27,6 +50,7 @@
         "template--19502207992124__8bf69362-bef9-4f89-9c3d-d9b3395ad70c-1688044494a91ef9df-0",
         "template--19502207992124__8bf69362-bef9-4f89-9c3d-d9b3395ad70c-1688044494a91ef9df-1"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -352,31 +376,15 @@
         "padding_bottom": 36
       }
     },
-    "homepage_banner_3Q3Yaq": {
-      "type": "homepage-banner",
-      "blocks": {
-        "banner_AU3Djd": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Home-header.png",
-            "mimage": "shopify:\/\/shop_images\/Homepage_Header_Mobi.png",
-            "small-image": "shopify:\/\/shop_images\/Goodies-logo.png",
-            "heading": "The shape of things to come! Your favorite squares with a new, plant based juiciness.",
-            "image_overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "banner_AU3Djd"
-      ],
+    "mini_banner_neMURq": {
+      "type": "mini-banner",
       "settings": {
-        "infinite": false,
-        "autoplay": true,
-        "slider-speed": 4000
+        "text": "All your favourite fruity flavours"
       }
     }
   },
   "order": [
+    "homepage_banner_3Q3Yaq",
     "8bf69362-bef9-4f89-9c3d-d9b3395ad70c",
     "5adec333-1fe3-4203-85b0-4b713b773547",
     "cdba4c2c-f7e2-4015-bba0-6df3d95218c3",
@@ -385,6 +393,6 @@
     "6231c8fe-9f64-4e58-bbfd-7fbad4636c04",
     "multicolumn_RxCKwb",
     "multicolumn_HqRWFG",
-    "homepage_banner_3Q3Yaq"
+    "mini_banner_neMURq"
   ]
 }
