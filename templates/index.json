@@ -29,54 +29,6 @@
         "text": "All your favourite fruity flavours"
       }
     },
-    "8bf69362-bef9-4f89-9c3d-d9b3395ad70c": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--19502207992124__8bf69362-bef9-4f89-9c3d-d9b3395ad70c-1688044494a91ef9df-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Logo_and_Text.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--19502207992124__8bf69362-bef9-4f89-9c3d-d9b3395ad70c-1688044494a91ef9df-1": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19502207992124__8bf69362-bef9-4f89-9c3d-d9b3395ad70c-1688044494a91ef9df-0",
-        "template--19502207992124__8bf69362-bef9-4f89-9c3d-d9b3395ad70c-1688044494a91ef9df-1"
-      ],
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-0856d3d8-1783-438f-9a75-3439fe616972",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "cdba4c2c-f7e2-4015-bba0-6df3d95218c3": {
       "type": "multicolumn",
       "blocks": {
@@ -133,70 +85,10 @@
         "padding_bottom": 0
       }
     },
-    "4215e66a-6b71-4958-9cf7-2af63cd089a6": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--19502207992124__4215e66a-6b71-4958-9cf7-2af63cd089a6-1688044494a91ef9df-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Asset_8_2x_c4822978-ba23-4f15-9997-4f152292925b.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "https:\/\/Shopnow.com"
-          }
-        },
-        "template--19502207992124__4215e66a-6b71-4958-9cf7-2af63cd089a6-1688044494a91ef9df-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Asset_7_2x_dbe8bb77-1d9c-4e12-9880-468156cb54cc.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--19502207992124__4215e66a-6b71-4958-9cf7-2af63cd089a6-1688044494a91ef9df-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Asset_8_2x_9e183d4e-5380-4bf7-a9b5-afcd891a2e56.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19502207992124__4215e66a-6b71-4958-9cf7-2af63cd089a6-1688044494a91ef9df-0",
-        "template--19502207992124__4215e66a-6b71-4958-9cf7-2af63cd089a6-1688044494a91ef9df-1",
-        "template--19502207992124__4215e66a-6b71-4958-9cf7-2af63cd089a6-1688044494a91ef9df-2"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".title-wrapper-with-link h2 {margin: auto;}"
-      ],
-      "settings": {
-        "title": "ALL FLAVORS NO COMPRIMISE",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-0856d3d8-1783-438f-9a75-3439fe616972",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_collection_XeKceD": {
       "type": "featured-collection",
       "settings": {
-        "title": "ALL FLAVORS NO COMPROMISE",
+        "title": "ALL FLAVORS <br> NO COMPROMISE",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -381,9 +273,7 @@
   "order": [
     "homepage_banner_3Q3Yaq",
     "mini_banner_neMURq",
-    "8bf69362-bef9-4f89-9c3d-d9b3395ad70c",
     "cdba4c2c-f7e2-4015-bba0-6df3d95218c3",
-    "4215e66a-6b71-4958-9cf7-2af63cd089a6",
     "featured_collection_XeKceD",
     "6231c8fe-9f64-4e58-bbfd-7fbad4636c04",
     "multicolumn_RxCKwb",
