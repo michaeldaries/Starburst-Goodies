@@ -1,7 +1,7 @@
 {{ 'textwithbackground.css' | asset_url | stylesheet_tag }}
 
 <section>
-        <div data-align = {{section.settings.alignment}} class="textandbackgroundwrap" style="background-image: url({{ section.settings.image | img_url: 'master'}});">
+        <div data-align = {{section.settings.alignment}} class="textandbackgroundwrap" style="background-image: url({{ section.settings.dimage | img_url: 'master'}});">
             {%- if section.settings.alignment == 'left' -%}
                 <div class="textandbackgroundHeading">
                     {% if section.settings.heading != blank %}
@@ -38,7 +38,12 @@
             
         </div>
 </section>
-
+<style>
+  .textandbackgroundwrap{
+    background-image: url({{section.settings.mimage | img_url: 'master'}});
+  }
+  
+</style>
 
 
 
@@ -48,11 +53,16 @@
         "settings": [
             {
               "type": "image_picker",
-              "id": "image",
-              "label": "Image"
+              "id": "dimage",
+              "label": "Desktop Image"
             },
             {
-                "type": "text",
+              "type": "image_picker",
+              "id": "mimage",
+              "label": "Mobile Image"
+            },
+            {
+                "type": "html",
                 "id": "heading",
                 "label": "Heading"
             },

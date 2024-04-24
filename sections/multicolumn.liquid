@@ -145,6 +145,7 @@
             </div>
           </li>
         {%- endfor -%}
+        <div class="rte">{{ section.settings.additional-text }}</div>
       </ul>
 
       {%- if show_mobile_slider -%}
@@ -206,6 +207,11 @@
       "default": "Multicolumn",
       "label": "t:sections.multicolumn.settings.title.label"
     },
+     {
+       "type": "html",
+       "id": "additional-text",
+       "label": "Additional Bottom Text"
+     },
     {
       "type": "select",
       "id": "heading_size",

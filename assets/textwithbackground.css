@@ -18,10 +18,35 @@
     line-height: 1;
     font-family: 'Solido';
     margin: 0;
+    text-align: center;
 }
 .textandbackgroundHeading p{
     color: #EC5D5B;
     font-size: 28px;
     line-height: 32px;
     font-family: 'Solido';
+    padding: 0 20px;
+    text-align: center;
+}
+.globalButton{
+    font-family: 'Solido';
+    font-size: 28px;
+    line-height: 36px;
+    color: #EC5D5B;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 2px 20px;
+    border-radius: 5px;
+}
+.globalButton.quick-add__submit{
+    width: auto;
+}
+
+@media all and (max-width: 750px) {
+    .textandbackgroundwrap{
+        grid-template-columns: 100%;
+    }
+    .emptySec{
+        display: none;
+    }
 }
