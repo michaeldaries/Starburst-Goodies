@@ -4,6 +4,37 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "images_ibQxme": {
+          "type": "images",
+          "settings": {
+            "iconImg": "shopify:\/\/shop_images\/Group_3.png",
+            "slink": "",
+            "alt-text": ""
+          }
+        },
+        "images_VmKFQX": {
+          "type": "images",
+          "settings": {
+            "iconImg": "shopify:\/\/shop_images\/Path_4.png",
+            "slink": "",
+            "alt-text": ""
+          }
+        },
+        "images_ffnpWA": {
+          "type": "images",
+          "settings": {
+            "iconImg": "shopify:\/\/shop_images\/Path_3.png",
+            "slink": "",
+            "alt-text": ""
+          }
+        }
+      },
+      "block_order": [
+        "images_ibQxme",
+        "images_VmKFQX",
+        "images_ffnpWA"
+      ],
       "settings": {
         "footer-logo": "shopify:\/\/shop_images\/Starburst-logo_2705e477-e070-4f48-91c4-31764a1d61d2.png",
         "heading1": "Contact & Help",
