@@ -1,1 +1,72 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"footer":{"type":"footer","blocks":{"ef4527ba-7b7e-4694-ac7b-e07d9bd27e28":{"type":"link_list","settings":{"heading":"© 2023 Mars or Affiliates. All Rights Reserved","menu":"footer"}}},"block_order":["ef4527ba-7b7e-4694-ac7b-e07d9bd27e28"],"settings":{"color_scheme":"background-1","newsletter_enable":false,"newsletter_heading":"Subscribe to our emails","enable_follow_on_shop":false,"show_social":true,"enable_country_selector":true,"enable_language_selector":true,"payment_enable":false,"show_policy":false,"margin_top":36,"padding_top":36,"padding_bottom":36}}},"order":["footer"]}
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "ef4527ba-7b7e-4694-ac7b-e07d9bd27e28": {
+          "type": "link_list",
+          "disabled": true,
+          "settings": {
+            "heading": "© 2023 Mars or Affiliates. All Rights Reserved",
+            "menu": "footer"
+          }
+        },
+        "image_mxJyBY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Starburst-logo.png",
+            "image_width": 325,
+            "alignment": "center"
+          }
+        },
+        "link_list_RLHQkK": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "link_list_hgmKV9": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "link_list_ihdAhx": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "ef4527ba-7b7e-4694-ac7b-e07d9bd27e28",
+        "image_mxJyBY",
+        "link_list_RLHQkK",
+        "link_list_hgmKV9",
+        "link_list_ihdAhx"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": false,
+        "show_policy": false,
+        "margin_top": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

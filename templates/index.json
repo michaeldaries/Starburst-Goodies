@@ -26,7 +26,7 @@
     "mini_banner_neMURq": {
       "type": "mini-banner",
       "settings": {
-        "text": "All your favourite fruity flavours"
+        "text": "All your favorite fruity flavors"
       }
     },
     "cdba4c2c-f7e2-4015-bba0-6df3d95218c3": {
@@ -47,7 +47,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Fruits_icon_fcc082c4-425f-458c-9501-8d8da02da2b6.png",
             "title": "MADE WITH REAL FRUIT JUICE*",
-            "text": "<p>*5.5% of real fruit juice<\/p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -70,6 +70,7 @@
       ],
       "settings": {
         "title": "",
+        "additional-text": "<p>*5.5% of real fruit juice<\/p>",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -106,7 +107,7 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": false,
+        "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -154,6 +155,7 @@
       ],
       "settings": {
         "title": "",
+        "additional-text": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -172,7 +174,8 @@
     "text_with_backgrond_image_HKJJQr": {
       "type": "text-with-backgrond-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Homepage_Desktop_Girl_Holding.png",
+        "dimage": "shopify:\/\/shop_images\/Homepage_Desktop_Girl_Holding.png",
+        "mimage": "shopify:\/\/shop_images\/Homepage_Mobile_Girl.png",
         "heading": "HERE’S THE THING…",
         "subheading": "Plant based doesn’t have to be boring - after all, STARBURST® candies never compromise on juiciness or flavor. And with 8g of sugar per bag, there’s even more reason to love these binge worthy squares. So go on, get gummy and enjoy your favorite flavors the guiltless way!",
         "btn-text": "SHOP NOW",
@@ -183,7 +186,8 @@
     "text_with_backgrond_image_LNm6jQ": {
       "type": "text-with-backgrond-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Home_Hand_Block-v2.png",
+        "dimage": "shopify:\/\/shop_images\/Home_Hand_Block-v2.png",
+        "mimage": "shopify:\/\/shop_images\/Home_Hand_Block_Mobi.png",
         "heading": "SOFT, CHEWY AND 8G OF SUGAR",
         "subheading": "Find your favorite – your new plant based low sugar gummies are ready and waiting for you!",
         "btn-text": "SHOP NOW",
