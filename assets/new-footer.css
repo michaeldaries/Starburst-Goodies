@@ -59,3 +59,15 @@
     font-size: 12px;
     margin: 0;
 }
+@media all and (max-width: 600px){
+    .footer-second-row {
+        grid-template-columns: 100%;
+    }
+    .footer-third-row {
+        grid-template-columns: 100%;
+        gap: 30px;
+    }
+    .social-icons-wrap{
+        padding: 0;
+    }
+}
