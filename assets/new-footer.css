@@ -1,0 +1,61 @@
+.footer-main-wrap{
+    height: 500px;
+    background-color: #FFDD00;
+    padding: 30px;
+}
+
+.footer-first-row{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+    height: 50px;
+    justify-items: start;
+}
+.footer-first-row h3{
+    font-family: 'VAGRoundedLTPro';
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: #ce0b10;
+}
+.footer-second-row{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.footer-second-row-two ul, .footer-second-row-three ul, .footer-second-row-four ul{
+    padding: 0;
+}
+
+.footer-third-row{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+.footer-inner-wrap li{
+    list-style: none;
+}
+.footer-inner-wrap li a{
+    text-decoration: none;
+    font-family: 'VAGRoundedLTPro';
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: #ce0b10;
+    line-height: 1.5;
+}
+.social-icons-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 30px;
+    padding-left: 40px;
+    margin-top: 20px;
+}
+.footer-second-row-one {
+    display: flex;
+    align-items: center;
+}
+.footer-third-row-tow p{
+    font-family: 'VAGRoundedLTPro';
+    font-size: 12px;
+    margin: 0;
+}
