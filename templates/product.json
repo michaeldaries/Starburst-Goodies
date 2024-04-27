@@ -121,6 +121,7 @@
         "column_pTgecf"
       ],
       "settings": {
+        "height": 450,
         "title": "",
         "additional-text": "<p>*5.5% of real fruit juice<\/p>",
         "heading_size": "h1",
@@ -131,6 +132,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
+        "bg-size": "cover",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -141,15 +143,6 @@
     "multicolumn_NMH9AM": {
       "type": "multicolumn",
       "blocks": {
-        "column_3NDHBa": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_6Lc7rw": {
           "type": "column",
           "settings": {
@@ -160,22 +153,22 @@
             "link": ""
           }
         },
-        "column_wrYbDP": {
+        "column_mnwKa8": {
           "type": "column",
           "settings": {
-            "title": "",
-            "text": "",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_3NDHBa",
         "column_6Lc7rw",
-        "column_wrYbDP"
+        "column_mnwKa8"
       ],
       "settings": {
+        "height": 600,
         "title": "",
         "additional-text": "",
         "heading_size": "h1",
@@ -186,6 +179,8 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
+        "bg-image": "shopify:\/\/shop_images\/Nutrition_Panel_Original.png",
+        "bg-size": "cover",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
