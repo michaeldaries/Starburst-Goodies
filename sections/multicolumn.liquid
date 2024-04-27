@@ -26,7 +26,8 @@
   endif
 -%}
 
-<div class="hp-banner multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
+<div class="hp-banner multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}"
+  style="background-image :url('{{section.settings.bg-image | img_url: "master" }}'); background-size: {{section.settings.bg-size}}; height: {{section.settings.height}}px">
   <div
     class="page-width section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     {% if settings.animations_reveal_on_scroll %}
@@ -202,6 +203,16 @@
   },
   "settings": [
     {
+      "type": "range",
+      "id": "height",
+      "min": 400,
+      "max": 800,
+      "step": 50,
+      "unit": "px",
+      "label": "Section Height",
+      "default": 600
+    },
+    {
       "type": "inline_richtext",
       "id": "title",
       "default": "Multicolumn",
@@ -327,6 +338,27 @@
       "type": "url",
       "id": "button_link",
       "label": "t:sections.multicolumn.settings.button_link.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg-image",
+      "label": "Backgroun Image"
+    },
+    {
+      "type": "select",
+      "id": "bg-size",
+      "label": "Background Size",
+      "options": [
+        {
+          "value": "cover",
+          "label": "Cover"
+        },
+        {
+          "value": "contain",
+          "label": "Contain"
+        }
+      ],
+      "default": "cover"
     },
     {
       "type": "color_scheme",
