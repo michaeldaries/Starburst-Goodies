@@ -167,6 +167,9 @@
         "column_6Lc7rw",
         "column_mnwKa8"
       ],
+      "custom_css": [
+        ".hp-banner.multicolumn {display: grid; grid-template-columns: 50% 50%; align-items: center;}"
+      ],
       "settings": {
         "height": 600,
         "title": "",
