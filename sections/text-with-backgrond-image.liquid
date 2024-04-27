@@ -2,38 +2,55 @@
 
 <section>
         <div data-align = {{section.settings.alignment}} class="textandbackgroundwrap" style="background-image: url({{ section.settings.dimage | img_url: 'master'}});">
-            {%- if section.settings.alignment == 'left' -%}
-                <div class="textandbackgroundHeading">
-                    {% if section.settings.heading != blank %}
-                        <h2>{{section.settings.heading}}</h2>
-                    {% endif %}
-                    {% if section.settings.subheading != blank %}
-                        <p>{{section.settings.subheading}}</p>
-                    {% endif %}
-                    {% if section.settings.btn-text != blank %}
-                        <a href="{{section.settings.btn-url}}" class="globalButton">{{section.settings.btn-text}}</a>
-                    {% endif %}
-
-            </div>
-            <div class="emptySec">
+            {%- if section.settings.txtorimg == 'text' -%}
+              {%- if section.settings.alignment == 'left' -%}
+              <div class="textandbackgroundHeading">
+                {% if section.settings.heading != blank %}
+                <h2>{{section.settings.heading}}</h2>
+                {% endif %}
+                {% if section.settings.subheading != blank %}
+                <p>{{section.settings.subheading}}</p>
+                {% endif %}
+                {% if section.settings.btn-text != blank %}
+                <a href="{{section.settings.btn-url}}" class="globalButton">{{section.settings.btn-text}}</a>
+                {% endif %}
+              </div>
+              <div class="emptySec">
                 <input type="hidden" name="">
-            </div>
-            {%- else -%}
-            <div class="emptySec">
+              </div>
+              {%- else -%}
+              <div class="emptySec">
                 <input type="hidden" name="">
-            </div>
-            <div class="textandbackgroundHeading">
-                    {% if section.settings.heading != blank %}
-                        <h2>{{section.settings.heading}}</h2>
-                    {% endif %}
-                    {% if section.settings.subheading != blank %}
-                        <p>{{section.settings.subheading}}</p>
-                    {% endif %}
-                    {% if section.settings.btn-text != blank %}
-                        <a href="{{section.settings.btn-url}}" class="globalButton">{{section.settings.btn-text}}</a>
-                    {% endif %}
-            </div>
-
+              </div>
+              <div class="textandbackgroundHeading">
+                {% if section.settings.heading != blank %}
+                <h2>{{section.settings.heading}}</h2>
+                {% endif %}
+                {% if section.settings.subheading != blank %}
+                <p>{{section.settings.subheading}}</p>
+                {% endif %}
+                {% if section.settings.btn-text != blank %}
+                <a href="{{section.settings.btn-url}}" class="globalButton">{{section.settings.btn-text}}</a>
+                {% endif %}
+              </div>
+              {%- endif -%}
+            {%- elsif section.settings.txtorimg == 'image' -%}
+                {%- if section.settings.imagePos == "left" -%}
+                  <div class="imagewraper">
+                    <img src="{{section.settings.image |  img_url: 'master' }}" alt="{{section.settings.alt}}">
+                  </div>
+                  <div class="emptySec">
+                    <input type="hidden" name="">
+                  </div>
+                {%- else -%}
+                <div class="emptySec">
+                  <input type="hidden" name="">
+                  </div>
+                  <div class="imagewraper">
+                    <img src="{{section.settings.image |  img_url: 'master' }}" alt="{{section.settings.alt}}">
+                  </div>
+                {%- endif -%}
+                
             {%- endif -%}
             
         </div>
@@ -60,6 +77,21 @@
               "type": "image_picker",
               "id": "mimage",
               "label": "Mobile Image"
+            },
+            {
+              "type": "select",
+              "id": "txtorimg",
+              "label": "Text or Image",
+              "options": [
+                {
+                  "value": "text",
+                  "label": "Text"
+                },
+                {
+                  "value": "image",
+                  "label": "Image"
+                }
+              ]
             },
             {
                 "type": "html",
@@ -94,8 +126,32 @@
                   "value": "right",
                   "label": "Right"
                 }
-                
               ]
+            },
+            {
+              "type": "radio",
+              "id": "imagePos",
+              "label": "Image Position",
+              "options": [
+                {
+                  "value": "left",
+                  "label": "Left"
+                },
+                {
+                  "value": "right",
+                  "label": "Right"
+                } 
+              ]
+            },
+            {
+              "type": "image_picker",
+              "id": "image",
+              "label": "Image"
+            },
+            {
+              "type": "text",
+              "id": "alt",
+              "label": "Alt text"
             }
         ],
         "presets": [
