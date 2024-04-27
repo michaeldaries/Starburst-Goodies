@@ -41,7 +41,14 @@
 .globalButton.quick-add__submit{
     width: auto;
 }
-
+.imagewraper img {
+    height: 332px;
+}
+.imagewraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media all and (max-width: 750px) {
     .textandbackgroundwrap{
         grid-template-columns: 100%;
