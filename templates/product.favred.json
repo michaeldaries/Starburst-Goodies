@@ -171,6 +171,9 @@
         "template--19762951160124__c9600a42-3646-4030-8af8-143439991b54-1688065073c9facbe0-1",
         "column_LDWyqW"
       ],
+      "custom_css": [
+        ".hp-banner.multicolumn {display: grid; grid-template-columns: 50% 50%; align-items: center;}"
+      ],
       "settings": {
         "height": 600,
         "title": "",
