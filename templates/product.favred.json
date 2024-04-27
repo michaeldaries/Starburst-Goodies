@@ -183,6 +183,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
+        "bg-image": "shopify:\/\/shop_images\/Nutrition_Panel_FaveReds.png",
         "bg-size": "cover",
         "color_scheme": "scheme-0856d3d8-1783-438f-9a75-3439fe616972",
         "columns_mobile": "1",
