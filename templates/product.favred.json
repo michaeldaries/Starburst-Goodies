@@ -91,7 +91,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Sugar_Icon_v2.png",
-            "title": "4g OF SUGAR PER BAG",
+            "title": "8g OF SUGAR PER BAG",
             "text": "",
             "link_label": "",
             "link": ""
@@ -124,7 +124,7 @@
         "template--19762951160124__33a72143-6e29-45ec-928a-74febd1e7396-1688065073c9facbe0-2"
       ],
       "settings": {
-        "height": 600,
+        "height": 450,
         "title": "",
         "additional-text": "",
         "heading_size": "h1",
@@ -135,6 +135,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
+        "bg-image": "shopify:\/\/shop_images\/Watermelon_BG.png",
         "bg-size": "cover",
         "color_scheme": "scheme-0deff096-1ea7-48ad-9f79-091d2d4c7b36",
         "columns_mobile": "1",
