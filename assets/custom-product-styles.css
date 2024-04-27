@@ -1,0 +1,33 @@
+.product__title h1{
+    font-family: 'Solido';
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 48px;
+    color: #ffffff;
+}
+.quantity__label{
+    font-family: "Solido";
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 40px;
+}
+product-info#ProductInfo-template--22588839493948__main{
+    text-align: center;
+}
+quantity-input.quantity{
+    margin: auto;
+    width: 110px;
+}
+.product-form__submit{
+    width: 175px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+.product-form__submit::before{
+    --border-opacity: unset;
+}
+.product-form__submit span{
+    font-family: 'Solido';
+    font-size: 28px;
+}
