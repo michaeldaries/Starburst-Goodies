@@ -99,7 +99,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Fruits_icon_fcc082c4-425f-458c-9501-8d8da02da2b6.png",
             "title": "MADE WITH REAL FRUIT JUICE*",
-            "text": "<p>*5.5% of real fruit juice<\/p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -122,7 +122,7 @@
       ],
       "settings": {
         "title": "",
-        "additional-text": "",
+        "additional-text": "<p>*5.5% of real fruit juice<\/p>",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
