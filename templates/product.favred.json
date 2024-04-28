@@ -144,47 +144,6 @@
         "padding_bottom": 36
       }
     },
-    "c9600a42-3646-4030-8af8-143439991b54": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_LDWyqW": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Nutrition_Panel.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_LDWyqW"
-      ],
-      "custom_css": [
-        ".hp-banner.multicolumn {display: grid; grid-template-columns: 50% 50%; align-items: center;}"
-      ],
-      "settings": {
-        "height": 600,
-        "title": "",
-        "additional-text": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "bg-image": "shopify:\/\/shop_images\/Nutrition_Panel_FaveReds.png",
-        "bg-size": "cover",
-        "color_scheme": "scheme-0856d3d8-1783-438f-9a75-3439fe616972",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "097cb633-6510-4c16-94de-f0ed814fbc87": {
       "type": "multicolumn",
       "blocks": {
@@ -245,14 +204,28 @@
         "image": "shopify:\/\/shop_images\/Nutrition_Panel_4d561075-5c5e-4b77-ae0b-458466535ffe.png",
         "alt": ""
       }
+    },
+    "text_with_backgrond_image_PTaTzL": {
+      "type": "text-with-backgrond-image",
+      "settings": {
+        "dimage": "shopify:\/\/shop_images\/Homepage_Desktop_Man_Holding.png",
+        "txtorimg": "text",
+        "heading": "HERE'S THE THING...",
+        "subheading": "Plant based doesn’t have to be boring-after all, STARBURST® candies never compromise on juiciness or flavor. And with 8g of sugar per bag, there’s even more reason to love these binge worthy squares.So go on, get gummy and enjoy your favorite flavorsthe guiltless way!",
+        "btn-text": "",
+        "btn-url": "",
+        "alignment": "left",
+        "imagePos": "left",
+        "alt": ""
+      }
     }
   },
   "order": [
     "main",
     "related-products",
     "33a72143-6e29-45ec-928a-74febd1e7396",
-    "c9600a42-3646-4030-8af8-143439991b54",
     "097cb633-6510-4c16-94de-f0ed814fbc87",
-    "text_with_backgrond_image_PPYgeR"
+    "text_with_backgrond_image_PPYgeR",
+    "text_with_backgrond_image_PTaTzL"
   ]
 }
