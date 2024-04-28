@@ -230,6 +230,21 @@
         "padding_top": 100,
         "padding_bottom": 36
       }
+    },
+    "text_with_backgrond_image_PPYgeR": {
+      "type": "text-with-backgrond-image",
+      "settings": {
+        "dimage": "shopify:\/\/shop_images\/Nutrition_Panel_FaveReds.png",
+        "txtorimg": "image",
+        "heading": "",
+        "subheading": "",
+        "btn-text": "",
+        "btn-url": "",
+        "alignment": "left",
+        "imagePos": "right",
+        "image": "shopify:\/\/shop_images\/Nutrition_Panel_4d561075-5c5e-4b77-ae0b-458466535ffe.png",
+        "alt": ""
+      }
     }
   },
   "order": [
@@ -237,6 +252,7 @@
     "related-products",
     "33a72143-6e29-45ec-928a-74febd1e7396",
     "c9600a42-3646-4030-8af8-143439991b54",
-    "097cb633-6510-4c16-94de-f0ed814fbc87"
+    "097cb633-6510-4c16-94de-f0ed814fbc87",
+    "text_with_backgrond_image_PPYgeR"
   ]
 }
