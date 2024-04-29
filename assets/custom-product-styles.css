@@ -39,3 +39,13 @@ quantity-input.quantity{
 .product-form__submit::after, quantity-input.quantity::after{
     box-shadow: unset;
 }
+
+@media all and (max-width: 600px){
+    .hp-banner{
+        height: unset !important;
+    }
+    .imagewraper img{
+        height: unset;
+        width: 90%;
+    }
+}
