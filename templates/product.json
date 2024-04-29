@@ -187,11 +187,30 @@
       "settings": {
         "dimage": "shopify:\/\/shop_images\/Homepage_Desktop_Girl_Holding.png",
         "mimage": "shopify:\/\/shop_images\/Homepage_Mobile_Girl.png",
+        "txtorimg": "text",
         "heading": "HERE’S THE THING…",
         "subheading": "Plant based doesn’t have to be boring - after all, STARBURST® candies never compromise on juiciness or flavor. And with 8g of sugar per bag, there’s even more reason to love these binge worthy squares. So go on, get gummy and enjoy your favorite flavors the guiltless way!",
         "btn-text": "SHOP NOW",
         "btn-url": "",
-        "alignment": "right"
+        "alignment": "right",
+        "imagePos": "left",
+        "alt": ""
+      }
+    },
+    "text_with_backgrond_image_DeFMND": {
+      "type": "text-with-backgrond-image",
+      "settings": {
+        "dimage": "shopify:\/\/shop_images\/Nutrition_Panel_Original.png",
+        "mimage": "shopify:\/\/shop_images\/Nutrition_Panel_Orig.png",
+        "txtorimg": "image",
+        "heading": "",
+        "subheading": "",
+        "btn-text": "",
+        "btn-url": "",
+        "alignment": "left",
+        "imagePos": "left",
+        "image": "shopify:\/\/shop_images\/NutritionPanel.png",
+        "alt": ""
       }
     }
   },
@@ -200,6 +219,7 @@
     "related-products",
     "multicolumn_GeUnWB",
     "multicolumn_NMH9AM",
-    "text_with_backgrond_image_y8hCjz"
+    "text_with_backgrond_image_y8hCjz",
+    "text_with_backgrond_image_DeFMND"
   ]
 }
