@@ -56,4 +56,7 @@
     .emptySec{
         display: none;
     }
+    .hp-banner{
+        height: unset !important;
+    }
 }
