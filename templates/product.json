@@ -141,6 +141,22 @@
         "padding_bottom": 36
       }
     },
+    "text_with_backgrond_image_DeFMND": {
+      "type": "text-with-backgrond-image",
+      "settings": {
+        "dimage": "shopify:\/\/shop_images\/Nutrition_Panel_Original.png",
+        "mimage": "shopify:\/\/shop_images\/Nutrition_Panel_Orig.png",
+        "txtorimg": "image",
+        "heading": "",
+        "subheading": "",
+        "btn-text": "",
+        "btn-url": "",
+        "alignment": "left",
+        "imagePos": "left",
+        "image": "shopify:\/\/shop_images\/NutritionPanel.png",
+        "alt": ""
+      }
+    },
     "multicolumn_NMH9AM": {
       "type": "multicolumn",
       "blocks": {
@@ -158,6 +174,7 @@
       "block_order": [
         "column_6Lc7rw"
       ],
+      "disabled": true,
       "custom_css": [
         ".hp-banner.multicolumn {display: grid; grid-template-columns: 50% 50%; align-items: center;}"
       ],
@@ -196,30 +213,14 @@
         "imagePos": "left",
         "alt": ""
       }
-    },
-    "text_with_backgrond_image_DeFMND": {
-      "type": "text-with-backgrond-image",
-      "settings": {
-        "dimage": "shopify:\/\/shop_images\/Nutrition_Panel_Original.png",
-        "mimage": "shopify:\/\/shop_images\/Nutrition_Panel_Orig.png",
-        "txtorimg": "image",
-        "heading": "",
-        "subheading": "",
-        "btn-text": "",
-        "btn-url": "",
-        "alignment": "left",
-        "imagePos": "left",
-        "image": "shopify:\/\/shop_images\/NutritionPanel.png",
-        "alt": ""
-      }
     }
   },
   "order": [
     "main",
     "related-products",
     "multicolumn_GeUnWB",
+    "text_with_backgrond_image_DeFMND",
     "multicolumn_NMH9AM",
-    "text_with_backgrond_image_y8hCjz",
-    "text_with_backgrond_image_DeFMND"
+    "text_with_backgrond_image_y8hCjz"
   ]
 }
