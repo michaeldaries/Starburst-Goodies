@@ -1,7 +1,8 @@
 {{ 'textwithbackground.css' | asset_url | stylesheet_tag }}
 
-<section>
+<section class="{{section.id}}">
         <div data-align = {{section.settings.alignment}} class="textandbackgroundwrap" style="background-image: url({{ section.settings.dimage | img_url: 'master'}});">
+            <img class="bg-image" src="{{section.settings.mimage | img_url: 'master' }}" alt="">
             {%- if section.settings.txtorimg == 'text' -%}
               {%- if section.settings.alignment == 'left' -%}
               <div class="textandbackgroundHeading">
@@ -37,7 +38,7 @@
             {%- elsif section.settings.txtorimg == 'image' -%}
                 {%- if section.settings.imagePos == "left" -%}
                   <div class="imagewraper">
-                    <img src="{{section.settings.image |  img_url: 'master' }}" alt="{{section.settings.alt}}">
+                    <img class="nutri-img" src="{{section.settings.image |  img_url: 'master' }}" alt="{{section.settings.alt}}">
                   </div>
                   <div class="emptySec">
                     <input type="hidden" name="">
@@ -56,8 +57,9 @@
         </div>
 </section>
 <style>
-  .textandbackgroundwrap{
-    background-image: url({{section.settings.mimage | img_url: 'master'}});
+  .{{section.id}} .textandbackgroundwrap{
+    /* background-image: url({{section.settings.mimage | img_url: 'master'}}) !important; */
+    background-image: unset !important;
   }
   
 </style>
