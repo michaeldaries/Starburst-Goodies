@@ -5,6 +5,9 @@
     background-size: cover;
     background-repeat: no-repeat;;
 }
+.textandbackgroundwrap .bg-image{
+    display: none;
+}
 .textandbackgroundHeading {
     display: flex;
     align-items: center;
@@ -41,7 +44,7 @@
 .globalButton.quick-add__submit{
     width: auto;
 }
-.imagewraper img {
+.imagewraper .nutri-img {
     height: 332px;
 }
 .imagewraper {
@@ -52,11 +55,19 @@
 @media all and (max-width: 750px) {
     .textandbackgroundwrap{
         grid-template-columns: 100%;
+        height: unset;
     }
     .emptySec{
         display: none;
     }
     .hp-banner{
         height: unset !important;
+    }
+    .textandbackgroundwrap .bg-image{
+        display: block;
+        width: 100%;
+    }
+    .textandbackgroundHeading{
+        padding: 10px 20px;
     }
 }
