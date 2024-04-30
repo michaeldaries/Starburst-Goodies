@@ -121,7 +121,7 @@
         "template--19762951192892__945003d8-19b9-4c21-a992-8f7c8311ca80-1688065073c9facbe0-2"
       ],
       "settings": {
-        "height": 600,
+        "height": 400,
         "title": "",
         "additional-text": "",
         "heading_size": "h1",
@@ -132,6 +132,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
+        "bg-image": "shopify:\/\/shop_images\/Orange_BG.png",
         "bg-size": "cover",
         "color_scheme": "scheme-61b1e461-eb82-4f6a-baf1-6d1f67c89751",
         "columns_mobile": "1",
