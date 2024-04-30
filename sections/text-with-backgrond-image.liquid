@@ -57,9 +57,11 @@
         </div>
 </section>
 <style>
-  .{{section.id}} .textandbackgroundwrap{
-    /* background-image: url({{section.settings.mimage | img_url: 'master'}}) !important; */
-    background-image: unset !important;
+  @media all and (max-width: 600px){
+    .{{section.id}} .textandbackgroundwrap{
+      /* background-image: url({{section.settings.mimage | img_url: 'master'}}) !important; */
+      background-image: unset !important;
+    }
   }
   
 </style>
