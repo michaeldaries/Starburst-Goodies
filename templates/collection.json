@@ -15,7 +15,8 @@
         "banner_AhE8xn": {
           "type": "banner",
           "settings": {
-            "heading": "Image banner",
+            "image": "shopify:\/\/shop_images\/Home-header.png",
+            "heading": "",
             "image_overlay_opacity": 0
           }
         }
