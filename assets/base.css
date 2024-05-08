@@ -3612,7 +3612,4 @@ background-image: url(https://cdn.shopify.com/s/files/1/0777/8625/1580/files/Hom
   background-size: cover;
 }
 
-/*****Remove the Gren background from product images on homepage****/
-.card__inner.color-background-2.gradient.ratio {
-    background-color: transparent !important;
-}
+
