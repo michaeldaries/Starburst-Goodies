@@ -16,7 +16,9 @@
           "type": "banner",
           "settings": {
             "image": "shopify:\/\/shop_images\/Home-header.png",
-            "heading": "",
+            "mimage": "shopify:\/\/shop_images\/Homepage_Header_Mobi.png",
+            "small-image": "shopify:\/\/shop_images\/Goodies-logo.png",
+            "heading": "The shape of things to come! Your favorite squares with a new, plant based juciness.",
             "image_overlay_opacity": 0
           }
         }
