@@ -32,6 +32,12 @@
         "slider-speed": 4000
       }
     },
+    "mini_banner_fmjP8M": {
+      "type": "mini-banner",
+      "settings": {
+        "text": "All your favorite fruity flavors"
+      }
+    },
     "featured_collection_jXGjNF": {
       "type": "featured-collection",
       "custom_css": [
@@ -103,6 +109,7 @@
   "order": [
     "banner",
     "homepage_banner_pHzVkd",
+    "mini_banner_fmjP8M",
     "featured_collection_jXGjNF",
     "product-grid",
     "text_with_backgrond_image_RGENWC"
