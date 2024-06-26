@@ -50,7 +50,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "What are the net carbs?",
-            "icon": "check_mark",
+            "icon": "question_mark",
             "row_content": "",
             "page": ""
           }
