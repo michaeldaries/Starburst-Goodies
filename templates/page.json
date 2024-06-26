@@ -85,8 +85,8 @@
         "collapsible_row_QqtdPi": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "",
-            "icon": "check_mark",
+            "heading": "My order arrived, but it's damaged! What's your Return policy?",
+            "icon": "question_mark",
             "row_content": "",
             "page": ""
           }
