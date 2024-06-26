@@ -31,8 +31,8 @@
         "collapsible_row_UU3RPN": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
+            "heading": "Are they gluten free, vegan, and\/or dairy-free?",
+            "icon": "question_mark",
             "row_content": "",
             "page": ""
           }
@@ -64,7 +64,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "",
+        "heading": "Frequently Asked Questions",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
