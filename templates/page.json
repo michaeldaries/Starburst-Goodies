@@ -65,8 +65,8 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Where did all the sugar go? What does it taste like with less sugar?",
-            "icon": "apple",
-            "row_content": "<p>Its still there<\/p>",
+            "icon": "question_mark",
+            "row_content": "<p>Loreum Ipsum<\/p>",
             "page": ""
           }
         },
