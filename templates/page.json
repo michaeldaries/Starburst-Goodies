@@ -76,8 +76,8 @@
         "collapsible_row_4fmGez": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "",
-            "icon": "check_mark",
+            "heading": "What is the cost of shipping? How long does it take to ship?",
+            "icon": "question_mark",
             "row_content": "",
             "page": ""
           }
