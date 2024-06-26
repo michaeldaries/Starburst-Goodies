@@ -77,7 +77,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "",
-            "icon": "check_mark",
+            "icon": "question_mark",
             "row_content": "",
             "page": ""
           }
