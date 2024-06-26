@@ -41,7 +41,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "What is the nutritional content of your products?",
-            "icon": "check_mark",
+            "icon": "question_mark",
             "row_content": "",
             "page": ""
           }
