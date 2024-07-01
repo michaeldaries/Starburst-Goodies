@@ -122,6 +122,9 @@
         "collapsible_row_7TY64L",
         "collapsible_row_E7L8T9"
       ],
+      "custom_css": [
+        "h3 {font-size: 20px;}"
+      ],
       "settings": {
         "caption": "",
         "heading": "",
