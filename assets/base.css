@@ -3616,3 +3616,8 @@ background-image: url(https://cdn.shopify.com/s/files/1/0777/8625/1580/files/Hom
 .card__inner.color-background-2.gradient.ratio {
     background-color: transparent !important;
 }
+
+/*****Increase font size for cookies banner****/
+#ot-sdk-btn {
+  font-size: 1.0em;
+}
