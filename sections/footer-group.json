@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -44,7 +53,7 @@
         "menu1": "footer-menu-1",
         "menu2": "footer-menu-2",
         "menu3": "footer-menu-3",
-        "footer-text": "This is a marketing site This site includes information, games, advertisements and promotional offers featuring our products. Children should get a parent’s permission before visiting any website or giving personal information. You must be 18 or older to shop online. ©2024 Mars or Affiliates. Third party trademarks are property of their respective owners."
+        "footer-text": "This is a marketing site. This site includes information, games, advertisements and promotional offers featuring our products. Children should get a parent’s permission before visiting any website or giving personal information. You must be 18 or older to shop online. ©2024 Mars or Affiliates. Third party trademarks are property of their respective owners."
       }
     }
   },
