@@ -97,8 +97,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Sugar_Icon_v2.png",
-            "title": "8g OF SUGAR PER BAG",
-            "text": "",
+            "title": "8g OF SUGAR PER PACK*",
+            "text": "<p>*per 51g pack<\/p>",
             "link_label": "",
             "link": ""
           }
