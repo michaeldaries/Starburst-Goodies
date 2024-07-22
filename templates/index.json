@@ -165,6 +165,7 @@
         "template--19502207992124__6231c8fe-9f64-4e58-bbfd-7fbad4636c04-1688044494a91ef9df-1",
         "template--19502207992124__6231c8fe-9f64-4e58-bbfd-7fbad4636c04-1688044494a91ef9df-2"
       ],
+      "disabled": true,
       "custom_css": [
         ".hp-banner.multicolumn {padding: 60px 0;}"
       ],
