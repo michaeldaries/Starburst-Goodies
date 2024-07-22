@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -88,8 +97,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Sugar_Icon_v2.png",
-            "title": "8g OF SUGAR PER BAG",
-            "text": "",
+            "title": "8g OF SUGAR PER PACK*",
+            "text": "<p>*per 51g pack<\/p>",
             "link_label": "",
             "link": ""
           }
