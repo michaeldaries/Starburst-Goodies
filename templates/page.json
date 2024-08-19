@@ -78,7 +78,7 @@
           "settings": {
             "heading": "What is the cost of shipping? How long does it take to ship?",
             "icon": "question_mark",
-            "row_content": "",
+            "row_content": "<p>Shipping is Free! We'll fulfill your order as soon as possible, but please allow 1 week processing time.<\/p>",
             "page": ""
           }
         },
