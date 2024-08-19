@@ -96,7 +96,7 @@
           "settings": {
             "heading": "How do I Contact support?",
             "icon": "question_mark",
-            "row_content": "",
+            "row_content": "<p><a href=\"mailto:support@starburstgummies.zendesk.com\" title=\"mailto:support@starburstgummies.zendesk.com\">Contact Us!<\/a><\/p>",
             "page": ""
           }
         },
