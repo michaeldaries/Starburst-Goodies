@@ -60,7 +60,7 @@
           "settings": {
             "heading": "Do these taste like the original Starbust flavors?",
             "icon": "question_mark",
-            "row_content": "",
+            "row_content": "<p>They are similar flavor to Starburst, however they are natural flavors so not quite as intense.<\/p>",
             "page": ""
           }
         },
