@@ -33,7 +33,7 @@
           "settings": {
             "heading": "Are they gluten free, vegan, and\/or dairy-free?",
             "icon": "question_mark",
-            "row_content": "",
+            "row_content": "<p>Yes to the gluten free and dairy-free. They would not be considered vagan because we do not restrict the use of sugar refined using bone char.<\/p>",
             "page": ""
           }
         },
