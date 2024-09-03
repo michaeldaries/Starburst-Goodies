@@ -105,7 +105,7 @@
           "settings": {
             "heading": "What ingredients are in the products?",
             "icon": "question_mark",
-            "row_content": "<p><\/p><p><\/p>",
+            "row_content": "",
             "page": ""
           }
         }
