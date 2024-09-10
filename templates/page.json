@@ -48,6 +48,7 @@
         },
         "collapsible_row_3r4ekc": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "What are the net carbs?",
             "icon": "question_mark",
@@ -57,6 +58,7 @@
         },
         "collapsible_row_AzpGkB": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "Do these taste like the original Starbust flavors?",
             "icon": "question_mark",
@@ -87,7 +89,7 @@
           "settings": {
             "heading": "My order arrived, but it's damaged! What's your Return policy?",
             "icon": "question_mark",
-            "row_content": "",
+            "row_content": "<p>Give <a href=\"mailto:support@starburstgummies.zendesk.com\" target=\"_blank\" title=\"mailto:support@starburstgummies.zendesk.com\">Customer Service<\/a> a shout and we'll be happy to replace your product!<\/p>",
             "page": ""
           }
         },
