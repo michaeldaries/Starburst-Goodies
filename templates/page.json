@@ -28,33 +28,6 @@
             "page": ""
           }
         },
-        "collapsible_row_UU3RPN": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Are they gluten free?",
-            "icon": "question_mark",
-            "row_content": "<p>Yes, all Starburst Goodies products are certified gluten free.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_3dgFpc": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Are they dairy free?",
-            "icon": "question_mark",
-            "row_content": "<p>Yes, all Starburst Goodies products are dairy free.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_m6WAFB": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Are they Vegan?",
-            "icon": "question_mark",
-            "row_content": "<p>No, Starburst Goodies are not vegan.<\/p>",
-            "page": ""
-          }
-        },
         "collapsible_row_e4mePJ": {
           "type": "collapsible_row",
           "settings": {
@@ -128,13 +101,37 @@
             "row_content": "<p><strong>Original:<\/strong><br\/>Ingredients: SOLUBLE CORN FIBER, ALLULOSE, SUGAR, JUICE CONCENTRATE (APPLE, DARK SWEET CHERRY, LEMON, ORANGE, STRAWBERRY), WATER, TAPIOCA STARCH, LESS THAN 2% OF: PECTIN, MALIC ACID, SODIUM CITRATE, POTASSIUM CITRATE, CITRIC ACID, NATURAL FLAVOR, MEDIUM CHAIN TRIGYCERIDES, COLORS, (PURPLE CARROT JUICE CONCENTRATE, BETA-CAROTENE), CARNAUBA WAX<br\/><strong>FaveReds:<\/strong><br\/>Ingredients: SOLUBLE CORN FIBER, ALLULOSE, SUGAR, FRUIT JUICE CONCENTRATE, (APPLE, DARK SWEET CHERRY, STRAWBERRY, WATERMELON), WATER, TAPIOCA STARCH, LESS THAN 2% OF: PECTIN, MALIC ACID, SODIUM CITRATE, POTASSIUM CITRATE, CITRIC ACID, NATURAL FLAVOR, MEDIUM CHAIN TRIGYCERIDES, PURPLE CARROT JUICE CONCENTRATE (COLOR), CARNAUBA WAX.<br\/><\/p>",
             "page": ""
           }
+        },
+        "collapsible_row_UU3RPN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are they gluten free?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, all Starburst Goodies products are certified gluten free.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3dgFpc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are they dairy free?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, all Starburst Goodies products are dairy free.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_m6WAFB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are they Vegan?",
+            "icon": "question_mark",
+            "row_content": "<p>No, Starburst Goodies are not vegan.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "collapsible_row_EfwPN8",
-        "collapsible_row_UU3RPN",
-        "collapsible_row_3dgFpc",
-        "collapsible_row_m6WAFB",
         "collapsible_row_e4mePJ",
         "collapsible_row_3r4ekc",
         "collapsible_row_AzpGkB",
@@ -142,7 +139,10 @@
         "collapsible_row_4fmGez",
         "collapsible_row_QqtdPi",
         "collapsible_row_7TY64L",
-        "collapsible_row_E7L8T9"
+        "collapsible_row_E7L8T9",
+        "collapsible_row_UU3RPN",
+        "collapsible_row_3dgFpc",
+        "collapsible_row_m6WAFB"
       ],
       "custom_css": [
         "h3 {font-size: 20px;}"
