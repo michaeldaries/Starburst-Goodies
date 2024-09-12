@@ -71,7 +71,7 @@
           "settings": {
             "heading": "What stores can I find them in?",
             "icon": "question_mark",
-            "row_content": "",
+            "row_content": "<p>You can find Goodies in your local Target or HEB!<\/p>",
             "page": ""
           }
         },
