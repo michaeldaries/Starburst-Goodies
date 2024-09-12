@@ -115,7 +115,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Are they dairy free?",
-            "icon": "check_mark",
+            "icon": "question_mark",
             "row_content": "<p>Yes, all Starburst Goodies products are dairy free.<\/p>",
             "page": ""
           }
