@@ -31,9 +31,9 @@
         "collapsible_row_UU3RPN": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Are they gluten free, vegan, and\/or dairy-free?",
+            "heading": "Are they gluten free?",
             "icon": "question_mark",
-            "row_content": "<p>Yes to the gluten free and dairy-free. They would not be considered vegan because we do not restrict the use of sugar refined using bone char.<\/p>",
+            "row_content": "<p>Yes, all Starburst Goodies products are certified gluten free.<\/p>",
             "page": ""
           }
         },
