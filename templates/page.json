@@ -119,6 +119,15 @@
             "row_content": "<p>Yes, all Starburst Goodies products are dairy free.<\/p>",
             "page": ""
           }
+        },
+        "collapsible_row_m6WAFB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are they Vegan?",
+            "icon": "question_mark",
+            "row_content": "<p>No, Starburst Goodies are not vegan.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -132,7 +141,8 @@
         "collapsible_row_QqtdPi",
         "collapsible_row_7TY64L",
         "collapsible_row_E7L8T9",
-        "collapsible_row_3dgFpc"
+        "collapsible_row_3dgFpc",
+        "collapsible_row_m6WAFB"
       ],
       "custom_css": [
         "h3 {font-size: 20px;}"
