@@ -1,0 +1,170 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "collapsible_content_qKxwfk": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_EfwPN8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where did all the sugar go? What does it taste like with less sugar?",
+            "icon": "question_mark",
+            "row_content": "<p>Goodies is sweetened with a special blend of soluble fiber and allulose, offering the same delicious taste you love but with less sugar!<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_e4mePJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the nutritional content of your products?",
+            "icon": "question_mark",
+            "row_content": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0777\/8625\/1580\/files\/Nutrition_Panel_4d561075-5c5e-4b77-ae0b-458466535ffe.png?v=1714324330\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0777\/8625\/1580\/files\/Nutrition_Panel_4d561075-5c5e-4b77-ae0b-458466535ffe.png?v=1714324330\">Nutritional Information<\/a><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3r4ekc": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "What are the net carbs?",
+            "icon": "question_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_AzpGkB": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Do these taste like the original Starbust flavors?",
+            "icon": "question_mark",
+            "row_content": "<p>They are similar flavor to Starburst, however they are natural flavors so not quite as intense.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CLDxFM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What stores can I find them in?",
+            "icon": "question_mark",
+            "row_content": "<p>You can find Goodies in your local Target or HEB!<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4fmGez": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the cost of shipping? How long does it take to ship?",
+            "icon": "question_mark",
+            "row_content": "<p>Shipping is Free! We'll fulfill your order as soon as possible, but please allow 1 week processing time.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_QqtdPi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "My order arrived, but it's damaged! What's your Return policy?",
+            "icon": "question_mark",
+            "row_content": "<p>Give <a href=\"mailto:support@starburstgummies.zendesk.com\" target=\"_blank\" title=\"mailto:support@starburstgummies.zendesk.com\">Customer Service<\/a> a shout and we'll be happy to replace your product!<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7TY64L": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I Contact support?",
+            "icon": "question_mark",
+            "row_content": "<p><a href=\"mailto:support@starburstgummies.zendesk.com\" title=\"mailto:support@starburstgummies.zendesk.com\">Contact Us!<\/a><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_E7L8T9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What ingredients are in the products?",
+            "icon": "question_mark",
+            "row_content": "<p><strong>Original:<\/strong><br\/>Ingredients: SOLUBLE CORN FIBER, ALLULOSE, SUGAR, JUICE CONCENTRATE (APPLE, DARK SWEET CHERRY, LEMON, ORANGE, STRAWBERRY), WATER, TAPIOCA STARCH, LESS THAN 2% OF: PECTIN, MALIC ACID, SODIUM CITRATE, POTASSIUM CITRATE, CITRIC ACID, NATURAL FLAVOR, MEDIUM CHAIN TRIGYCERIDES, COLORS, (PURPLE CARROT JUICE CONCENTRATE, BETA-CAROTENE), CARNAUBA WAX<br\/><strong>FaveReds:<\/strong><br\/>Ingredients: SOLUBLE CORN FIBER, ALLULOSE, SUGAR, FRUIT JUICE CONCENTRATE, (APPLE, DARK SWEET CHERRY, STRAWBERRY, WATERMELON), WATER, TAPIOCA STARCH, LESS THAN 2% OF: PECTIN, MALIC ACID, SODIUM CITRATE, POTASSIUM CITRATE, CITRIC ACID, NATURAL FLAVOR, MEDIUM CHAIN TRIGYCERIDES, PURPLE CARROT JUICE CONCENTRATE (COLOR), CARNAUBA WAX.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_UU3RPN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are they gluten free?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, all Starburst Goodies products are certified gluten free.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3dgFpc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are they dairy free?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, all Starburst Goodies products are dairy free.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_m6WAFB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are they Vegan?",
+            "icon": "question_mark",
+            "row_content": "<p>No, Starburst Goodies are not vegan.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_EfwPN8",
+        "collapsible_row_e4mePJ",
+        "collapsible_row_3r4ekc",
+        "collapsible_row_AzpGkB",
+        "collapsible_row_CLDxFM",
+        "collapsible_row_4fmGez",
+        "collapsible_row_QqtdPi",
+        "collapsible_row_7TY64L",
+        "collapsible_row_E7L8T9",
+        "collapsible_row_UU3RPN",
+        "collapsible_row_3dgFpc",
+        "collapsible_row_m6WAFB"
+      ],
+      "custom_css": [
+        "h3 {font-size: 20px;}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "accent-2",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collapsible_content_qKxwfk"
+  ]
+}
