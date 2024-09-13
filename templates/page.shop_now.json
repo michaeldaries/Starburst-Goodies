@@ -55,6 +55,7 @@
         "buy_buttons",
         "description"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "accent-1",
@@ -129,6 +130,7 @@
         "column_xUkbVR",
         "column_pTgecf"
       ],
+      "disabled": true,
       "settings": {
         "height": 450,
         "title": "",
@@ -152,6 +154,7 @@
     },
     "text_with_backgrond_image_DeFMND": {
       "type": "text-with-backgrond-image",
+      "disabled": true,
       "settings": {
         "dimage": "shopify:\/\/shop_images\/Nutrition_Panel_Original.png",
         "mimage": "shopify:\/\/shop_images\/Nutrition_Panel_Orig.png",
@@ -210,6 +213,7 @@
     },
     "text_with_backgrond_image_y8hCjz": {
       "type": "text-with-backgrond-image",
+      "disabled": true,
       "settings": {
         "dimage": "shopify:\/\/shop_images\/Homepage_Desktop_Girl_Holding.png",
         "mimage": "shopify:\/\/shop_images\/Homepage_Mobile_Girl.png",
@@ -222,6 +226,34 @@
         "imagePos": "left",
         "alt": ""
       }
+    },
+    "featured_collection_UXUkzT": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "accent-2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -230,6 +262,7 @@
     "multicolumn_GeUnWB",
     "text_with_backgrond_image_DeFMND",
     "multicolumn_NMH9AM",
-    "text_with_backgrond_image_y8hCjz"
+    "text_with_backgrond_image_y8hCjz",
+    "featured_collection_UXUkzT"
   ]
 }
