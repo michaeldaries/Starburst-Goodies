@@ -9,7 +9,7 @@
 */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Asset_6.png",
+    "logo": "shopify://shop_images/Asset_6.png",
     "logo_width": 140,
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
@@ -107,7 +107,7 @@
     "sale_badge_color_scheme": "scheme-0856d3d8-1783-438f-9a75-3439fe616972",
     "sold_out_badge_color_scheme": "scheme-0856d3d8-1783-438f-9a75-3439fe616972",
     "brand_headline": "",
-    "brand_description": "<p><\/p>",
+    "brand_description": "<p></p>",
     "brand_image_width": 100,
     "social_facebook_link": "",
     "social_instagram_link": "",
@@ -145,13 +145,19 @@
     ],
     "blocks": {
       "11945366711752539959": {
-        "type": "shopify:\/\/apps\/zendesk\/blocks\/zendesk_web_widget\/c0b417b1-b90b-4754-baaf-f55627e6acd4",
+        "type": "shopify://apps/zendesk/blocks/zendesk_web_widget/c0b417b1-b90b-4754-baaf-f55627e6acd4",
         "disabled": false,
         "settings": {
         }
       },
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }
@@ -404,7 +410,7 @@
       "sale_badge_color_scheme": "scheme-4",
       "sold_out_badge_color_scheme": "scheme-3",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",
