@@ -525,7 +525,7 @@
   "shopify": {
     "checkout": {
       "thank_you": {
-        "page_title": "Thank you, {{ display_name }}! Please tell us more!"
+        "page_title": "Thank you, {{ display_name }}!"
       }
     }
   }
