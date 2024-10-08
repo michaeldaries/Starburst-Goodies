@@ -129,9 +129,15 @@
               role="group"
               aria-labelledby="predictive-search-products"
             >
+              {%- comment %}<locksmith:acd0>{% endcomment -%}
+                {%- assign locksmith_e5c2_forloop__size = 0 %}{%- for product in predictive_search.resources.products -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: predictive_search.resources, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_e5c2_forloop__size = locksmith_e5c2_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_e5c2_forloop__index = nil -%}
+              {%- comment %}</locksmith:acd0>{% endcomment -%}
               {%- for product in predictive_search.resources.products -%}
+                {%- comment %}<locksmith:d017>{% endcomment -%}
+                  {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: predictive_search.resources, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_e5c2_forloop__index == nil %}{% assign locksmith_e5c2_forloop__index = 1 %}{% assign locksmith_e5c2_forloop__index0 = 0 %}{% else %}{% assign locksmith_e5c2_forloop__index = locksmith_e5c2_forloop__index | plus: 1 %}{% assign locksmith_e5c2_forloop__index0 = locksmith_e5c2_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_e5c2_forloop__index == 1 %}{% assign locksmith_e5c2_forloop__first = true %}{% else %}{% assign locksmith_e5c2_forloop__first = false %}{% endif %}{% if locksmith_e5c2_forloop__index == locksmith_e5c2_forloop__size %}{% assign locksmith_e5c2_forloop__last = true %}{% else %}{% assign locksmith_e5c2_forloop__last = false %}{% endif %}{% assign locksmith_e5c2_forloop__rindex = locksmith_e5c2_forloop__size | minus: locksmith_e5c2_forloop__index | minus: 1 %}{% assign locksmith_e5c2_forloop__rindex0 = locksmith_e5c2_forloop__size | minus: locksmith_e5c2_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+                {%- comment %}</locksmith:d017>{% endcomment -%}
                 <li
-                  id="predictive-search-option-product-{{ forloop.index }}"
+                  id="predictive-search-option-product-{{ locksmith_e5c2_forloop__index }}"
                   class="predictive-search__list-item"
                   role="option"
                   aria-selected="false"
