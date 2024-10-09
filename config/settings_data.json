@@ -138,6 +138,20 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "main-register": {
+        "type": "main-register",
+        "settings": {
+          "padding_top": 36,
+          "padding_bottom": 36
+        }
+      },
+      "main-login": {
+        "type": "main-login",
+        "settings": {
+          "padding_top": 36,
+          "padding_bottom": 36
+        }
       }
     },
     "content_for_index": [
@@ -160,6 +174,13 @@
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
+        }
+      },
+      "5149645339031002760": {
+        "type": "shopify://apps/order-limits-minmaxify/blocks/app-embed-block/3acfba32-89f3-4377-ae20-cbb9abc48475",
+        "disabled": false,
+        "settings": {
+          "async": false
         }
       }
     },
