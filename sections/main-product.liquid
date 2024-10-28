@@ -83,13 +83,7 @@
         >
           {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
-          {%- comment %}<locksmith:2118>{% endcomment -%}
-            {%- assign locksmith_f6d8_forloop__size = 0 %}{%- for block in section.blocks -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block.settings.product, subject_parent: section, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_f6d8_forloop__size = locksmith_f6d8_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_f6d8_forloop__index = nil -%}
-          {%- comment %}</locksmith:2118>{% endcomment -%}
           {%- for block in section.blocks -%}
-            {%- comment %}<locksmith:29f3>{% endcomment -%}
-              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block.settings.product, subject_parent: section, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_f6d8_forloop__index == nil %}{% assign locksmith_f6d8_forloop__index = 1 %}{% assign locksmith_f6d8_forloop__index0 = 0 %}{% else %}{% assign locksmith_f6d8_forloop__index = locksmith_f6d8_forloop__index | plus: 1 %}{% assign locksmith_f6d8_forloop__index0 = locksmith_f6d8_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_f6d8_forloop__index == 1 %}{% assign locksmith_f6d8_forloop__first = true %}{% else %}{% assign locksmith_f6d8_forloop__first = false %}{% endif %}{% if locksmith_f6d8_forloop__index == locksmith_f6d8_forloop__size %}{% assign locksmith_f6d8_forloop__last = true %}{% else %}{% assign locksmith_f6d8_forloop__last = false %}{% endif %}{% assign locksmith_f6d8_forloop__rindex = locksmith_f6d8_forloop__size | minus: locksmith_f6d8_forloop__index | minus: 1 %}{% assign locksmith_f6d8_forloop__rindex0 = locksmith_f6d8_forloop__size | minus: locksmith_f6d8_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
-            {%- comment %}</locksmith:29f3>{% endcomment -%}
             {%- case block.type -%}
               {%- when '@app' -%}
                 {% render block %}
@@ -666,9 +660,6 @@
 
     {% assign popups = section.blocks | where: 'type', 'popup' %}
     {%- for block in popups -%}
-      {%- comment %}<locksmith:bf56>{% endcomment -%}
-        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-      {%- comment %}</locksmith:bf56>{% endcomment -%}
       <modal-dialog id="PopupModal-{{ block.id }}" class="product-popup-modal" {{ block.shopify_attributes }}>
         <div
           role="dialog"
