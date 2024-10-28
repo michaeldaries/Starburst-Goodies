@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "homepage_banner_3Q3Yaq": {
@@ -15,9 +15,9 @@
         "banner_AU3Djd": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Home-header.png",
-            "mimage": "shopify:\/\/shop_images\/Homepage_Header_Mobi.png",
-            "small-image": "shopify:\/\/shop_images\/Goodies-logo.png",
+            "image": "shopify://shop_images/Home-header.png",
+            "mimage": "shopify://shop_images/Homepage_Header_Mobi.png",
+            "small-image": "shopify://shop_images/Goodies-logo.png",
             "heading": "The shape of things to come! Your favorite squares with a new, plant based juiciness.",
             "image_overlay_opacity": 0
           }
@@ -44,9 +44,9 @@
         "template--19502207992124__cdba4c2c-f7e2-4015-bba0-6df3d95218c3-1688044494a91ef9df-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sugar_Icon_v2.png",
+            "image": "shopify://shop_images/Sugar_Icon_v2.png",
             "title": "8g OF SUGAR PER PACK*",
-            "text": "<p>*per 51g pack<\/p>",
+            "text": "<p>*per 51g pack</p>",
             "link_label": "",
             "link": ""
           }
@@ -54,9 +54,9 @@
         "template--19502207992124__cdba4c2c-f7e2-4015-bba0-6df3d95218c3-1688044494a91ef9df-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Fruits_icon_fcc082c4-425f-458c-9501-8d8da02da2b6.png",
+            "image": "shopify://shop_images/Fruits_icon_fcc082c4-425f-458c-9501-8d8da02da2b6.png",
             "title": "MADE WITH REAL FRUIT JUICE*",
-            "text": "<p>*5.5% of real fruit juice concentrate<\/p>",
+            "text": "<p>*5.5% of real fruit juice concentrate</p>",
             "link_label": "",
             "link": ""
           }
@@ -64,7 +64,7 @@
         "template--19502207992124__cdba4c2c-f7e2-4015-bba0-6df3d95218c3-1688044494a91ef9df-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Plant_Icon_v2.png",
+            "image": "shopify://shop_images/Plant_Icon_v2.png",
             "title": "PLANT BASED GUMMIES",
             "text": "",
             "link_label": "",
@@ -80,7 +80,7 @@
       "settings": {
         "height": 450,
         "title": "",
-        "additional-text": "<p>*5.5% of real fruit juice<\/p>",
+        "additional-text": "<p>*5.5% of real fruit juice</p>",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -89,7 +89,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "bg-image": "shopify:\/\/shop_images\/Orange_BG.png",
+        "bg-image": "shopify://shop_images/Orange_BG.png",
         "bg-size": "cover",
         "color_scheme": "scheme-0deff096-1ea7-48ad-9f79-091d2d4c7b36",
         "columns_mobile": "1",
@@ -107,7 +107,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "frontpage",
-        "products_to_show": 3,
+        "products_to_show": 4,
         "columns_desktop": 2,
         "full_width": false,
         "show_view_all": false,
@@ -132,7 +132,7 @@
         "template--19502207992124__6231c8fe-9f64-4e58-bbfd-7fbad4636c04-1688044494a91ef9df-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Font2_2x_cb0630b9-f5cf-4b78-98a7-999ba88c2e66.png",
+            "image": "shopify://shop_images/Font2_2x_cb0630b9-f5cf-4b78-98a7-999ba88c2e66.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -142,7 +142,7 @@
         "template--19502207992124__6231c8fe-9f64-4e58-bbfd-7fbad4636c04-1688044494a91ef9df-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Font3_2x_7472f0a0-9030-47b0-9d6a-e3765bd82083.png",
+            "image": "shopify://shop_images/Font3_2x_7472f0a0-9030-47b0-9d6a-e3765bd82083.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -152,7 +152,7 @@
         "template--19502207992124__6231c8fe-9f64-4e58-bbfd-7fbad4636c04-1688044494a91ef9df-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Font_4_2x_b2309bb0-bd55-4d08-bf42-5a10951e07db.png",
+            "image": "shopify://shop_images/Font_4_2x_b2309bb0-bd55-4d08-bf42-5a10951e07db.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -192,13 +192,13 @@
     "text_with_backgrond_image_HKJJQr": {
       "type": "text-with-backgrond-image",
       "settings": {
-        "dimage": "shopify:\/\/shop_images\/Homepage_Desktop_Girl_Holding.png",
-        "mimage": "shopify:\/\/shop_images\/Homepage_Mobile_Girl.png",
+        "dimage": "shopify://shop_images/Homepage_Desktop_Girl_Holding.png",
+        "mimage": "shopify://shop_images/Homepage_Mobile_Girl.png",
         "txtorimg": "text",
         "heading": "HERE’S THE THING…",
         "subheading": "Plant based doesn’t have to be boring - after all, STARBURST® candies never compromise on juiciness or flavor. And with 8g of sugar per bag, there’s even more reason to love these STARBURST® squares. So go on, get gummy and enjoy your favorite flavors the Goodies way! *Per 51g serving",
         "btn-text": "SHOP NOW",
-        "btn-url": "shopify:\/\/collections\/frontpage",
+        "btn-url": "shopify://collections/frontpage",
         "alignment": "right",
         "imagePos": "left",
         "alt": ""
@@ -207,13 +207,13 @@
     "text_with_backgrond_image_LNm6jQ": {
       "type": "text-with-backgrond-image",
       "settings": {
-        "dimage": "shopify:\/\/shop_images\/Home_Hand_Block-v2.png",
-        "mimage": "shopify:\/\/shop_images\/Home_Hand_Block_Mobi.png",
+        "dimage": "shopify://shop_images/Home_Hand_Block-v2.png",
+        "mimage": "shopify://shop_images/Home_Hand_Block_Mobi.png",
         "txtorimg": "text",
         "heading": "SOFT, CHEWY AND 8G OF SUGAR",
         "subheading": "Find your favorite – your new plant based gummies are ready and waiting for you!",
         "btn-text": "SHOP NOW",
-        "btn-url": "shopify:\/\/collections\/frontpage",
+        "btn-url": "shopify://collections/frontpage",
         "alignment": "left",
         "imagePos": "left",
         "alt": ""
