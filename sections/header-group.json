@@ -18,14 +18,13 @@
           "type": "announcement",
           "settings": {
             "text": "FREE SHIPPING ON ALL ORDERS",
-            "link": "shopify://collections/all"
+            "link": "shopify://collections/frontpage"
           }
         }
       },
       "block_order": [
         "announcement-bar-0"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "accent-2",
         "show_line_separator": true,
